@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>KK Candles – Natural Soy & Scented Candles</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="KK Candles - handcrafted soy and scented candles for cosy, calm spaces. Natural fragrances, warm glow, and minimalist design." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Top Promo Bar -->
+  <div class="top-bar">
+    <div class="top-bar__inner">
+      <span>Handcrafted Soy Candles • Free Delivery Above ₹999 • COD Available • Made with Love in India</span>
+    </div>
+  </div>
+
+  <!-- Header / Nav -->
+  <header class="header">
+    <div class="header__inner container">
+      <a href="#" class="header__logo">
+        <img src="logo.svg" alt="KK Candles" class="header__logo-img" />
+      </a>
+
+      <button class="header__toggle" id="mobileMenuToggle" aria-label="Toggle navigation">
+        ☰
+      </button>
+
+      <nav class="nav" id="mainNav">
+        <ul class="nav__list">
+          <li class="nav__item nav__item--dropdown">
+            <button class="nav__link">New Launches</button>
+            <div class="dropdown">
+              <a href="#" class="dropdown__link">New Arrivals</a>
+              <a href="#" class="dropdown__link">Limited Editions</a>
+            </div>
+          </li>
+
+          <li class="nav__item nav__item--dropdown">
+            <button class="nav__link">Candles</button>
+            <div class="dropdown">
+              <a href="#" class="dropdown__link">Soy Candles</a>
+              <a href="#" class="dropdown__link">Jar Candles</a>
+              <a href="#" class="dropdown__link">Pillar Candles</a>
+              <a href="#" class="dropdown__link">Gift Sets</a>
+            </div>
+          </li>
+
+          <li class="nav__item nav__item--dropdown">
+            <button class="nav__link">Home Fragrance</button>
+            <div class="dropdown">
+              <a href="#" class="dropdown__link">Reed Diffusers</a>
+              <a href="#" class="dropdown__link">Room Mists</a>
+            </div>
+          </li>
+
+          <li class="nav__item nav__item--dropdown">
+            <button class="nav__link">Wellness</button>
+            <div class="dropdown">
+              <a href="#" class="dropdown__link">Essential Oil Blends</a>
+              <a href="#" class="dropdown__link">Sleep & Relax</a>
+            </div>
+          </li>
+
+          <li class="nav__item nav__item--dropdown">
+            <button class="nav__link">Gifting</button>
+            <div class="dropdown">
+              <a href="#" class="dropdown__link">Gift Boxes</a>
+              <a href="#" class="dropdown__link">Festive Hampers</a>
+              <a href="#" class="dropdown__link">Wedding Favors</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <button class="icon-button" aria-label="Search">🔍</button>
+        <button class="icon-button" aria-label="Cart">🛒</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero__inner container">
+      <div class="hero__content">
+        <p class="hero__eyebrow">Natural • Minimal • Cosy</p>
+        <h1 class="hero__title">Handcrafted Soy Candles for Warm, Calm Evenings</h1>
+        <p class="hero__text">
+          KK Candles brings you soft, natural fragrances poured in minimalist jars.
+          Light a candle, slow down, and soak in the warm glow.
+        </p>
+        <div class="hero__actions">
+          <a href="#seasonal" class="btn btn--primary">Shop Bestsellers</a>
+          <a href="#collections" class="btn btn--ghost">Explore Collections</a>
+        </div>
+      </div>
+
+      <div class="hero__media">
+        <!-- Natural candle hero image -->
+        <div class="hero__image" style="background-image:url('https://images.pexels.com/photos/4790265/pexels-photo-4790265.jpeg?auto=compress&cs=tinysrgb&w=800');"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seasonal / Featured Products -->
+  <section class="section" id="seasonal">
+    <div class="container">
+      <div class="section__header">
+        <div>
+          <p class="section__eyebrow">Seasonal Favourites</p>
+          <h2 class="section__title">Warm Glow for Every Mood</h2>
+        </div>
+        <a href="#" class="section__link">View All</a>
+      </div>
+
+      <div class="product-grid">
+        <!-- Product Card 1 -->
+        <article class="product-card">
+          <div class="product-card__badge product-card__badge--new">New</div>
+          <div class="product-card__image-wrapper">
+            <img
+              src="https://images.pexels.com/photos/6329861/pexels-photo-6329861.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Calm Evenings Soy Candle Set"
+              class="product-card__image"
+            >
+          </div>
+          <h3 class="product-card__title">Calm Evenings Soy Candle Set</h3>
+          <div class="product-card__price">
+            <span class="product-card__price--old">₹1,899</span>
+            <span class="product-card__price--new">₹1,499</span>
+          </div>
+          <button class="btn btn--outline product-card__btn">Add to Cart</button>
+        </article>
+
+        <!-- Product Card 2 -->
+        <article class="product-card">
+          <div class="product-card__badge product-card__badge--new">Bestseller</div>
+          <div class="product-card__image-wrapper">
+            <img
+              src="https://images.pexels.com/photos/6207307/pexels-photo-6207307.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Lavender Drift Relaxation Candle"
+              class="product-card__image"
+            >
+          </div>
+          <h3 class="product-card__title">Lavender Drift Relaxation Candle</h3>
+          <div class="product-card__price">
+            <span class="product-card__price--old">₹899</span>
+            <span class="product-card__price--new">₹799</span>
+          </div>
+          <button class="btn btn--outline product-card__btn">Add to Cart</button>
+        </article>
+
+        <!-- Product Card 3 -->
+        <article class="product-card">
+          <div class="product-card__badge product-card__badge--new">Limited</div>
+          <div class="product-card__image-wrapper">
+            <img
+              src="https://images.pexels.com/photos/7772683/pexels-photo-7772683.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Minimal Sand Jar Candle"
+              class="product-card__image"
+            >
+          </div>
+          <h3 class="product-card__title">Minimal Sand Jar Candle</h3>
+          <div class="product-card__price">
+            <span class="product-card__price--old">₹749</span>
+            <span class="product-card__price--new">₹699</span>
+          </div>
+          <button class="btn btn--outline product-card__btn">Add to Cart</button>
+        </article>
+
+        <!-- Product Card 4 -->
+        <article class="product-card">
+          <div class="product-card__image-wrapper">
+            <img
+              src="https://images.pexels.com/photos/4820825/pexels-photo-4820825.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Aromatherapy Glow Gift Box"
+              class="product-card__image"
+            >
+          </div>
+          <h3 class="product-card__title">Aromatherapy Glow Gift Box</h3>
+          <div class="product-card__rating">
+            ★★★★☆ <span class="product-card__rating-count">(38)</span>
+          </div>
+          <div class="product-card__price">
+            <span class="product-card__price--new">₹1,599</span>
+          </div>
+          <button class="btn btn--outline product-card__btn">Add to Cart</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Collections -->
+  <section class="section section--soft" id="collections">
+    <div class="container">
+      <div class="section__header section__header--center">
+        <p class="section__eyebrow">For Every Corner of Your Home</p>
+        <h2 class="section__title">Discover KK Collections</h2>
+      </div>
+
+      <div class="collection-grid">
+        <!-- Fragrance Oils / Soy Wax -->
+        <article class="collection-card">
+          <div class="collection-card__image-wrapper">
+            <img
+              src="https://images.pexels.com/photos/6207303/pexels-photo-6207303.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Natural Soy Wax Collection"
+              class="collection-card__image"
+            >
+          </div>
+          <div class="collection-card__body">
+            <h3 class="collection-card__title">Natural Soy Wax Collection</h3>
+            <p class="collection-card__text">
+              Clean-burning soy candles with soft, subtle fragrances for mindful evenings.
+            </p>
+            <a href="#" class="collection-card__link">Shop Soy Candles →</a>
+          </div>
+        </article>
+
+        <!-- Essential Oil Blends -->
+        <article class="collection-card">
+          <div class="collection-card__image-wrapper">
+            <img
+              src="https://images.pexels.com/photos/6620929/pexels-photo-6620929.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Essential Oil Blends"
+              class="collection-card__image"
+            >
+          </div>
+          <div class="collection-card__body">
+            <h3 class="collection-card__title">Essential Oil Blends</h3>
+            <p class="collection-card__text">
+              Crafted blends for sleep, focus, and calm – perfect with your favourite candle.
+            </p>
+            <a href="#" class="collection-card__link">Shop Blends →</a>
+          </div>
+        </article>
+
+        <!-- Luxury Minimal Candles -->
+        <article class="collection-card">
+          <div class="collection-card__image-wrapper">
+            <img
+              src="https://images.pexels.com/photos/4790266/pexels-photo-4790266.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Luxury Minimal Candles"
+              class="collection-card__image"
+            >
+          </div>
+          <div class="collection-card__body">
+            <h3 class="collection-card__title">Luxury Minimal Candles</h3>
+            <p class="collection-card__text">
+              Understated jars, warm tones, and a soft glow that suits every modern home.
+            </p>
+            <a href="#" class="collection-card__link">Shop Luxury Range →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Text / Story Section -->
+  <section class="section">
+    <div class="container text-block">
+      <h2>The KK Candles Story</h2>
+      <p>
+        KK Candles was born out of a simple idea – that everyday moments feel better
+        in the soft light of a candle. Each piece is hand-poured in small batches,
+        using soy wax and thoughtfully chosen fragrance notes.
+      </p>
+      <p>
+        From quiet solo evenings to warm gatherings with friends, our candles are
+        designed to add calm, comfort, and an effortless sense of cosiness to your space.
+      </p>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="section section--soft">
+    <div class="container newsletter">
+      <div class="newsletter__content">
+        <h2>Join the KK Candle Circle</h2>
+        <p>Be the first to know about new scents, limited drops, and cosy-night offers.</p>
+      </div>
+      <form class="newsletter__form" onsubmit="return false;">
+        <input type="email" class="newsletter__input" placeholder="Enter your email address" required />
+        <button class="btn btn--primary" type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__column">
+        <h3 class="footer__title">KK Candles</h3>
+        <p class="footer__text">
+          Soft light, gentle scent, slow evenings. KK Candles creates minimal, warm,
+          and cosy pieces for homes that love calm.
+        </p>
+      </div>
+
+      <div class="footer__column">
+        <h4 class="footer__subtitle">Shop</h4>
+        <ul class="footer__list">
+          <li><a href="#">New Launches</a></li>
+          <li><a href="#">Soy Candles</a></li>
+          <li><a href="#">Gift Boxes</a></li>
+          <li><a href="#">Wellness Sets</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__column">
+        <h4 class="footer__subtitle">Help</h4>
+        <ul class="footer__list">
+          <li><a href="#">About KK Candles</a></li>
+          <li><a href="#">Shipping &amp; Returns</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__column">
+        <h4 class="footer__subtitle">Follow</h4>
+        <ul class="footer__list footer__social">
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Pinterest</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <span>© <span id="year"></span> KK Candles. All rights reserved.</span>
+        <span>Made with ♥ by KK</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
